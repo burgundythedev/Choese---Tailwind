@@ -4,7 +4,7 @@ import offer from "../assets/images/offer.svg";
 
 const Offers = () => {
   return (
-    <section className="flex justify-between items-center max-xl:flex-col-reverse gap-10 max-container">
+    <div className="flex justify-between items-center max-xl:flex-col-reverse gap-10 max-container">
       <div className="flex-1">
         <img
           src={offer}
@@ -39,7 +39,7 @@ const Offers = () => {
           />
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

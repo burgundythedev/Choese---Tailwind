@@ -46,14 +46,6 @@ const Header = () => {
               Contact us
             </a>
           </li>
-          <li>
-            <a
-              href="/"
-              className="fonts-montserrat leading-normal text-lg text-slate-gray"
-            >
-              Home
-            </a>
-          </li>
         </ul>
         <div className="hidden max-lg:block">
           <img src={burger} width={25} height={25} alt="burgermenu-logo" />
