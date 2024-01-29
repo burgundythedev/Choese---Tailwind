@@ -15,3 +15,8 @@ export type ImgURLType = {
     price: string;
   };
   
+  export type PropsServicesCard = {
+    imgURL: string;
+    label: string;
+    subtext: string;
+  };
