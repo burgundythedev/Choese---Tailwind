@@ -9,4 +9,9 @@ export type ImgURLType = {
     bigShoeImg: string;
     index: number; 
   };
+  export type PropsProductsCard = {
+    imgURL: string;
+    name: string;
+    price: string;
+  };
   
