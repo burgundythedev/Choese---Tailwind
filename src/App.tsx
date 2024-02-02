@@ -17,7 +17,7 @@ function App() {
       <div className="padding"><Quality/></div>
       <div className="padding-x py-10"><Services/></div>
       <div className="padding"><Offers/></div>
-      <div className="bg bg-pale-blue padding"><CustomerReviews/></div>
+      <div className="bg bg-blue-background padding"><CustomerReviews/></div>
       <div className="padding-x sm:py-32 py-16 w-full"><Subscribe/></div>
       <div className="bg-black padding-x padding-t pb-8"><Footer/></div>
     </div>

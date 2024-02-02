@@ -15,13 +15,18 @@ export default {
     },
     extend: {
       fontFamily: {
+        Sixtyfour: ["Sixtyfour", "sans-serif"],
         palanquin: ["Palanquin", "sans-serif"],
         montserrat: ["Montserrat", "sans-serif"],
       },
+      animation: { "spin-slow": "rotate360 20s linear infinite" },
       colors: {
         primary: "#ECEEFF",
+        "custom-blue": "#5dbdd1",
+        "blue-background": "rgba(93, 189, 209, 0.1)",
         "coral-red": "#FF6452",
         "slate-gray": "#6D6D6D",
+        "bg-gray": "rgba(109, 109, 109, 0.2)",
         "pale-blue": "#F5F6FF",
         "white-400": "rgba(255, 255, 255, 0.80)",
       },

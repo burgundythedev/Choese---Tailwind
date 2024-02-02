@@ -1,5 +1,5 @@
-import star from "../assets/icons/star.svg";
-import { PropsReviewsCard } from "../models/types";
+import star from "../../assets/icons/star.png";
+import { PropsReviewsCard } from "../../models/types";
 
 const Reviews = ({
   imgURL,
@@ -14,7 +14,7 @@ const Reviews = ({
         alt="customer"
         className="rounded-full object-cover w-[120px] h-[120px]"
       />
-      <p className="mt-6 max-w-sm text-center info-text">{feedback}</p>
+      <p className="text-base mt-6 max-w-sm text-justify font-montserrat leading-7 text-slate-gray">{feedback}</p>
       <div className="mt-3 flex justify-center items-center gap-2.5">
         <img
           src={star}
@@ -25,7 +25,7 @@ const Reviews = ({
         />
         <p className="text-xl font-montserrat text-slate-gray">({rating})</p>
       </div>
-      <h3 className="mt-1 font-palanquin text-3xl text-center font-bold">
+      <h3 className="w-full mt-1 font-palanquin text-3xl text-center font-bold">
         {customerName}
       </h3>
     </div>

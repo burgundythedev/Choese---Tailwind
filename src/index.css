@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -10,6 +10,19 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+}
+@keyframes rotate360 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media (max-width: 639px) { 
+  .stop-animation {
+    animation: none !important;
+  }
 }
 @layer components {
   .max-container {

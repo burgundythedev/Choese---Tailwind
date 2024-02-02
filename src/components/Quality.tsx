@@ -1,5 +1,5 @@
 import Button from "../Layout/Button";
-import { shoe8 } from "../models";
+import  quality from "../assets/images/distance.jpg";
 
 const Quality = () => {
   return (
@@ -10,8 +10,8 @@ const Quality = () => {
     <div className='flex flex-1 flex-col'>
       <h2 className='font-palanquin capitalize text-4xl lg:max-w-lg font-bold'>
         We Provide You
-        <span className='text-coral-red'> Super </span>
-        <span className='text-coral-red'>Quality </span> Shoes
+        <span className='text-custom-blue'> Super </span>
+        <span className='text-custom-blue'>Quality </span> Shoes
       </h2>
       <p className='mt-4 lg:max-w-lg info-text'>
         Ensuring premium comfort and style, our meticulously crafted footwear
@@ -28,11 +28,11 @@ const Quality = () => {
 
     <div className='flex-1 flex justify-center items-center'>
       <img
-        src={shoe8}
+        src={quality}
         alt='product detail'
-        width={570}
-        height={522}
-        className='object-contain'
+        width={400}
+        height={300}
+        className='object-contain rounded-xl'
       />
     </div>
   </div>

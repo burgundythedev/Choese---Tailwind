@@ -1,6 +1,6 @@
 import Button from "../Layout/Button";
 import arrowRight from "../assets/icons/arrow-right.svg";
-import offer from "../assets/images/offer.svg";
+import offer from "../assets/images/distance2.jpg";
 
 const Offers = () => {
   return (
@@ -8,15 +8,15 @@ const Offers = () => {
       <div className="flex-1">
         <img
           src={offer}
-          alt="Shoe Promotion"
-          width={773}
-          height={687}
-          className="object-contain w-full"
+          alt="offers"
+          className="object-contain rounded-xl"
+          width={400}
+          height={300}
         />
       </div>
       <div className="flex flex-1 flex-col">
         <h2 className="text-4xl font-palanquin font-bold">
-          <span className="text-coral-red">Special </span>
+          <span className="text-custom-blue">Special </span>
           Offer
         </h2>
         <p className="mt-4 info-text">

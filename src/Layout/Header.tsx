@@ -6,17 +6,18 @@ const Header = () => {
       <nav className="flex justify-between items-center max-container">
         <a href="/">
           <img
-            width={200}
-            height={100}
+            className=""
             src={logo}
             alt="logo-website"
+            width={100}
+            height={100}
           />
         </a>
         <a />
         <ul className="flex-1 flex justify-center items-center gap-16 max-lg:hidden">
           <li>
             <a
-              href="/"
+              href="#home"
               className="fonts-montserrat leading-normal text-lg text-slate-gray"
             >
               Home
@@ -24,7 +25,7 @@ const Header = () => {
           </li>
           <li>
             <a
-              href="/"
+              href="#about-us"
               className="fonts-montserrat leading-normal text-lg text-slate-gray"
             >
               About us
@@ -32,7 +33,7 @@ const Header = () => {
           </li>
           <li>
             <a
-              href="/"
+              href="#products"
               className="fonts-montserrat leading-normal text-lg text-slate-gray"
             >
               Products
@@ -40,7 +41,7 @@ const Header = () => {
           </li>
           <li>
             <a
-              href="/"
+              href="#contact-us"
               className="fonts-montserrat leading-normal text-lg text-slate-gray"
             >
               Contact us

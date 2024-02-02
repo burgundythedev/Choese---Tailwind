@@ -1,12 +1,12 @@
 import { products } from "../models";
-import PopProductsCard from "./PopProductsCard";
+import PopProductsCard from "./CardComponents/PopProductsCard";
 
 const PopProducts = () => {
   return (
     <div id="products" className="max-container max-sm:mt-12">
       <div className="flex flex-col justify-start gap-5">
         <h2 className="text-4xl font-palanquin font-bold">
-          <span className="text-coral-red">Popular</span> Products
+          <span className="text-custom-blue">Popular</span> Products
         </h2>
         <p className="lg:max-w-lg mt-2 font-montserrat text-slate-gray">
           Experience top-notch quality and style with our soughjt-after

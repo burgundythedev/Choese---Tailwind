@@ -1,4 +1,4 @@
-import { ShoeCardProps } from "../models/types";
+import { ShoeCardProps } from "../../models/types";
 
 const ShoeCard = ({ imgURL, changeBigShoeImage, bigShoeImg }: ShoeCardProps) => {
     const handleClick = () => {
@@ -11,12 +11,12 @@ const ShoeCard = ({ imgURL, changeBigShoeImage, bigShoeImg }: ShoeCardProps) => 
       <div
         className={`border-2 rounded-xl ${
           bigShoeImg === imgURL.bigShoe
-            ? "border-coral-red"
+            ? "border-custom-blue"
             : "border-transparent"
         } cursor-pointer max-sm:flex-1`}
         onClick={handleClick}
       >
-        <div className='flex justify-center items-center bg-card bg-center bg-cover sm:w-40 sm:h-40 rounded-xl max-sm:p-4'>
+        <div className='flex justify-center items-center bg-bg-gray sm:w-40 sm:h-40 rounded-xl max-sm:p-4'>
           <img
             src={imgURL.thumbnail}
             alt='shoe colletion'

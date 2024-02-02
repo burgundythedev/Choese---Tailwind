@@ -1,5 +1,5 @@
 import { services } from "../models/index";
-import ServiceCard from "./ServiceCard";
+import ServiceCard from "./CardComponents/ServiceCard";
 
 const Services = () => {
   return (
