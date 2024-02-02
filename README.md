@@ -14,4 +14,4 @@ Visit Choese Website: [https://choese.onrender.com](https://choese.onrender.com)
 
 Check out the live demo at [https://choese.onrender.com](https://choese.onrender.com).
 
-![Choese Screenshot](./public/screenshot-choese.png)
+
