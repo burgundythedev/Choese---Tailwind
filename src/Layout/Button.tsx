@@ -1,6 +1,6 @@
 type ButtonProps = {
   label: string;
-  iconURL?: string; // '?' indicates that this prop is optional
+  iconURL?: string; 
   backgroundColor?: string;
   textColor?: string;
   borderColor?: string;

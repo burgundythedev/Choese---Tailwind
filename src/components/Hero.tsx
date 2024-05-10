@@ -2,8 +2,6 @@ import { useState } from "react";
 import { shoes, statistics } from "../models";
 import ShoeSlide from "./CardComponents/ShoeSlide";
 import bigShoe1 from "../assets/images/big-shoe1.png";
-import arrowRight from "../assets/icons/arrow-right.svg";
-import Button from "../Layout/Button";
 
 const Hero = () => {
   const [bigShoeImg, setBigShoeImg] = useState(bigShoe1);
@@ -26,7 +24,9 @@ const Hero = () => {
           Discover new stylish Brands arrivals, quality comfort, and innovation
           for your active life.
         </p>
-        <Button label="Shop now" iconURL={arrowRight} />
+        <p className="font-Sixtyfour">
+          The realest!
+        </p>
         <div className="flex justify-start items-start flex-wrap w-full mt-20 gap-16">
           {statistics.map((stat, index) => (
             <div key={index}>

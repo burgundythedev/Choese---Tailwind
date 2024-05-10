@@ -1,5 +1,3 @@
-import Button from "../Layout/Button";
-import arrowRight from "../assets/icons/arrow-right.svg";
 import offer from "../assets/images/distance2.jpg";
 
 const Offers = () => {
@@ -30,13 +28,9 @@ const Offers = () => {
           nothing short of exceptional.
         </p>
         <div className="mt-11 flex flex-wrap gap-4">
-          <Button label="Shop now" iconURL={arrowRight} />
-          <Button
-            label="Learn more"
-            backgroundColor="bg-white"
-            borderColor="border-slate-gray"
-            textColor="text-slate-gray"
-          />
+          <p className="font-Sixtyfour bg-custom-blue text-white p-5 rounded-md">
+            Best Buy!
+          </p>
         </div>
       </div>
     </div>

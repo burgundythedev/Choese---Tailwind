@@ -1,5 +1,4 @@
-import Button from "../Layout/Button";
-import  quality from "../assets/images/distance.jpg";
+ import  quality from "../assets/images/distance.jpg";
 
 const Quality = () => {
   return (
@@ -22,7 +21,9 @@ const Quality = () => {
         Our dedication to detail and excellence ensures your satisfaction
       </p>
       <div className='mt-11'>
-        <Button label='View details' />
+      <p className="font-Sixtyfour">
+          Quality Street!
+        </p>
       </div>
     </div>
 
